@@ -48,9 +48,30 @@ body {
     transform: scale(1.1);
 }
 
+.hero-section {
+    display: flex;
+    background: linear-gradient(to right, #eee2d6 50%, #ffffff 50%);
+    padding: 80px;
+    height: 100vh;
+}
 
 
+.icon-links {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
 
+.icon-links img {
+    width: 20px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.icon-links img:hover   {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 
 footer {
     background-color: rgb(243, 243, 243);
