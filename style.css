@@ -1,0 +1,62 @@
+/* 基本重置與字體設定 */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px;
+    background-color:  rgb(243, 243, 243);
+}
+
+.nav-bar {
+    display: flex;
+    gap: 25px;
+    
+}
+
+.nav-bar a {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav-bar a:hover{
+    color: rgb(104, 104, 158);
+}
+
+.image-wrapper {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;       
+  border-radius: 50%;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 20px 20px 10px ;   
+  transition: transform 0.5s ease; 
+}
+
+.image-wrapper img:hover {
+    transition: 0.5s;
+    transform: scale(1.1);
+}
+
+
+
+
+
+footer {
+    background-color: rgb(243, 243, 243);
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
